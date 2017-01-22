@@ -1,4 +1,6 @@
-h4 { color: coral; }
+h4 { color: coral; 
+	font-size: 40px;
+}
 
 #border {
 		border: 2px solid red;
