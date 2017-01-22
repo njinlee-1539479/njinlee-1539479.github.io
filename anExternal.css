@@ -9,4 +9,15 @@ h4 { color: coral; }
 	margin: 10px 10px 10px 10px
 	width:100px;
 	height:100px; }
+	
+.banana {
+	float: left;
+	margin: 10px 10px 10px 10px
+	width:100px;
+	height:100px;
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; }
 		
