@@ -7,17 +7,41 @@
 	body {
 			background-color: yellow;
 	}
+	p.serif {font-family: "Times New Roman", Times, serif;}
+	p.sanserif {font-family: Arial, Helvetica, sans-serif;}
 	</style>
 	<body>
 		<h1>Newbie</h1>
 		<h2>About Me</h2>
-		<p><font face="verdana" color="purple">My name is Nicole Lee. I was born in Tuscon, Arizona. I lived in Taiwan for the first two years of my life,
+		<p class="serif">My name is Nicole Lee. I was born in Tuscon, Arizona. I lived in Taiwan for the first two years of my life,
 		then I moved to Gig Harbor, WA. I have lived here ever since. I am 19 years old. I attend the
-		University of Washington in Seattle. I am studying Pre-Nursing, and I just applied this year.</font></p>
-		<p><font face="Arial" color="black">If I am not accepted this year, I will take a gap year to travel and study abroad to teach
+		University of Washington in Seattle. I am studying Pre-Nursing, and I just applied this year.
+		</p>
+		<p class="sanserif">If I am not accepted this year, I will take a gap year to travel and study abroad to teach
 		children English, while simultaneously learn Spanish. I also want to volunteer when I am
-		abroad!</font></p>
-	<img src="https://s-media-cache-ak0.pinimg.com/736x/45/a4/e1/45a4e1a9dcddbd936c5586419842e397.jpg" title="black lab puppy" style="width:50px;height:50px;margin:5px">
-	<img src="http://photos.barefootlabradors.com/img/s/v-3/p276141777-3.jpg" title="chocolate lab puppy" style="width:50px;height:50px;margin:5px">
+		abroad!
+		</p>
+		<style>
+		img.resize{
+			width:50px;
+			height:50px;
+		}
+		</style>
+	<img class="resize" src="https://s-media-cache-ak0.pinimg.com/736x/45/a4/e1/45a4e1a9dcddbd936c5586419842e397.jpg" alt="black lab puppy">
+	<img class="resize" src="http://photos.barefootlabradors.com/img/s/v-3/p276141777-3.jpg" alt="chocolate lab puppy">
+	
+		<h3>Apprentice</h3>
+	<style>
+		img.displayed { 
+			dispaly: block;
+			margin-left: 50%;
+			margin-right: 50% }
+		p.text { text-align: center }
+	</style>
+	<img class="displayed" src="http://wmgf.us/wp-content/uploads/2016/02/Washington_Huskies.png" title="University of Washington" style="width:250px;height;315px;margin5px">
+		<p class="text">GO DAWGS!
+		</p>
+	
+	<img src="https://d13yacurqjgara.cloudfront.net/users/448879/screenshots/2487655/aguacate_1x.jpg" alt="avacado" style="margin:10px 20px">
 	</body>
 </html>
