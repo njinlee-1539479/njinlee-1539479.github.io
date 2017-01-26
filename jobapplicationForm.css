@@ -1,0 +1,10 @@
+body{
+}
+
+#Header{
+border: solid 8px black;
+}
+
+#Header h2{
+text-align: center;
+}
