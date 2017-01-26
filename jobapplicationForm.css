@@ -12,11 +12,15 @@ h2{
 }
 
 legend{
+	1. float: left;
 	text-align: center;
 	font-size: 30px;
 	font-family: "Passion One"; 
 	font-weight: bold;
+	padding-bottom: 8px;
+	
 }
+
 
 
 
